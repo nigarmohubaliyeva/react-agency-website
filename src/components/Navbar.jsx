@@ -15,7 +15,7 @@ const Navbar = () => {
 
   useEffect(() => {
     const handleScroll = () => {
-      if (Window.scrollY > 100) {
+      if (window.scrollY > 100) {
         setIsSticky(true);
       } else {
         setIsSticky(false);
@@ -41,7 +41,7 @@ const Navbar = () => {
       <nav
         className={`py-4 lg:px-14 px-4 ${
           isSticky
-            ? "sticky top-0 left-0 right-0 border-b bg-white duration-300"
+            ? "sticky top-0 left-0 right-0 border bg-white duration-300"
             : ""
         }`}
       >
