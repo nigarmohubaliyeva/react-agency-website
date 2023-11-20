@@ -7,6 +7,7 @@ import Products from "./components/Products";
 import Blog from "./components/Blog";
 import Newsletter from "./components/Newsletter";
 import MyFooter from "./components/MyFooter";
+import Licences from "./components/Licences";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <Blog />
       <Newsletter />
       <MyFooter />
+      <Licences />
     </>
   );
 }
