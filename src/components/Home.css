@@ -1,0 +1,14 @@
+@media (max-width: 768px) {
+  .text-4xl {
+    font-size: 2rem; /* Adjust the font size for smaller screens */
+  }
+
+  .text-base {
+    font-size: 0.875rem; /* Adjust the font size for smaller screens */
+  }
+
+  /* Set the width to 100% for all elements with the class w-full */
+  .w-full {
+    width: 100%;
+  }
+}

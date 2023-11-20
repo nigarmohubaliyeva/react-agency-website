@@ -13,20 +13,20 @@ const Services = () => {
       id: 2,
       title: "National Associations",
       description:
-        "Our membership management software provides full automation of membership renewals and payments",
+        "Tailored for national associations, our software streamlines membership processes, offering seamless renewals and payment automation to enhance organizational efficiency.",
       image: "/src/assets/building.png",
     },
     {
       id: 3,
       title: "Clubs And Groups",
       description:
-        "Our membership management software provides full automation of membership renewals and payments",
+        "Designed for clubs and groups, our membership management solution brings automation to renewals and payments, ensuring smooth operations and member satisfaction.",
       image: "/src/assets/united.png",
     },
   ];
 
   return (
-    <div className="md:px-14 px-4 py-16 max-w-screen-2xl mx-auto">
+    <div className="md:px-14 px-4 py-16 max-w-screen-2xl mx-auto" id="service">
       <div className="text-center my-8">
         <h2 className="text-4xl text-neutralDGrey font-semibold mb-2">
           Our Clients
@@ -89,10 +89,9 @@ const Services = () => {
         {services.map((service) => (
           <div
             key={service.id}
-            className="px-4 py-8 text-center md:w-[300px] mx-auto 
-            md:h-80 rounded-md shadow cursor-pointer hover:-translate-y-5
-            hover:border-b-4 hover:border-indigo-700 transition-all 
-            duration-300 flex items-center justify-center h-full"
+            className="px-4 py-8 text-center md:w-[300px] mx-auto md:h-80 rounded-md shadow cursor-pointer 
+                     group hover:-translate-y-5 hover:border-b-4 hover:border-indigo-700 transition-all 
+                     duration-300 flex items-center justify-center h-full"
           >
             <div>
               <div className="bg-[#1F4172] mb-4 h-14 w-14 mx-auto rounded-tl-3xl rounded-br-3xl">

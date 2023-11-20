@@ -7,45 +7,45 @@ const Products = () => {
   return (
     <div>
       {/* about text */}
-      <div className="px-4 lg:px-14 max-w-screen-2xl mx-auto my-8">
+      <div className="px-4 lg:px-14 max-w-screen-2xl mx-auto my-8" id="product">
         <div className=" max-w-md md:w-11/12 mx-auto flex flex-col md:flex-row justify-between items-center gap-12">
-          <img src={aboutImg} alt="" />
+          <img src={aboutImg} alt="about" />
         </div>
         <div className="md:w-3/5 mx-auto">
           <h2 className="text-4xl text-neutralDGrey font-semibold mb-4 md:w-4/5">
             How to design your site footer like we did
           </h2>
           <p className="md:w-3/4 text-sm text-neutralgrey mb-8">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
-            sunt, blanditiis itaque quisquam neque ex saepe harum autem
-            voluptatem eius recusandae debitis vero ducimus atque amet dolor
-            quod, deleniti corporis? Suscipit aspernatur quidem deserunt, ipsa
-            pariatur assumenda labore, quisquam possimus voluptates esse autem,
-            harum sapiente. Commodi eius unde iure assumenda necessitatibus
-            repellat reprehenderit ad, non, quas placeat totam, quidem eaque.
+            Explore the innovative process behind crafting an effective site
+            footer. Learn the strategies we employed to enhance user experience
+            and engagement. Elevate your website design with our insights and
+            expertise.
           </p>
           <button className="btn-primary">Learn More</button>
         </div>
       </div>
 
       {/* company stats */}
-      <div className="px-4 lg:px-14 max-w-screen-2xl mx-auto bg-neutralSilver py-16">
+      <div
+        className="px-4 lg:px-14 max-w-screen-2xl mx-auto bg-neutralSilver py-16"
+        id="testimonial"
+      >
         <div className="flex flex-col md:flex-row justify-between items-center gap-8">
           <div className="md:w-1/3">
-            <img src={partnership} alt="" />
+            <img src={partnership} alt="partnership" />
           </div>
 
           {/* stats */}
           <div className="md:w-2/3 mx-auto">
             <div>
               <p className="md:w-4/5 text-sm text-neutralGrey mb-8 leading-7">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Distinctio, cumque? Dolores ratione vero, tempora non commodi
-                voluptate ab eos, iusto nostrum a labore optio delectus
-                architecto unde illum nemo animi. Dolorum sunt consectetur
-                dolores facilis quidem porro facere. Reiciendis nostrum quaerat
-                maxime ut officiis quidem unde repellat suscipit alias at nulla,
-                iure quos esse, et tempore incidunt molestiae facilis.
+                Working with this team has been an incredible experience. Their
+                attention to detail, creativity, and commitment to delivering
+                high-quality results set them apart. The level of
+                professionalism displayed by the entire team exceeded our
+                expectations. Their innovative solutions have greatly
+                contributed to the success of our projects. We look forward to
+                continued collaboration and highly recommend their services.
               </p>
               <h5 className="text-brandPrimary text-xl font-semibold mb-2">
                 Tim Smith
